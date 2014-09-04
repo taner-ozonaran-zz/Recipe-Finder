@@ -61,7 +61,7 @@ class Recipe {
         $this->ingredients[] = $ingredient;
     }
     
-    public function getIngredientUsedBy() {
+    public function getUsedBy() {
         return $this->usedBy;
     }
     

@@ -7,3 +7,5 @@ include_once 'Models/Recipe.php';
 include_once 'Libs/Recipefinder.php';
 
 $Recipefinder = new \Libs\Recipefinder\Recipefinder($argv);
+$Recipefinder->findRecipes();
+Print($Recipefinder->getResults());
