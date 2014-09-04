@@ -16,14 +16,4 @@
         ]
 
     }
-    ,
-    {
-        "name": "bltsandwich",
-        "ingredients": [
-            {"item": "bread", "amount": "2", "unit": "slices"},
-            {"item": "bacon", "amount": "200", "unit": "grams"}
-
-        ]
-
-    }
 ]
